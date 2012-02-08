@@ -6,3 +6,6 @@ lib/*
 *.os
 doc/html
 doc/man
+*.pyc
+*.pyo
+
