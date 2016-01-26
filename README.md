@@ -28,6 +28,6 @@ Tested Devices:
 
 ## License
 
-The project is coverd by the [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause).
+See the LICENSE file in the root directory of this project for licensing information.
 
 
