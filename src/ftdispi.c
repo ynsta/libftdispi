@@ -103,7 +103,7 @@ __dll int ftdispi_open(struct ftdispi_context *fsc,
 	}
 	FTDI_CHECK(ftdi_write_data_set_chunksize(&fsc->fc, 512),
 		   "SET CHUNK 512", fsc->fc);
-	FTDI_CHECK(ftdi_set_interface(&fsc->fc, INTERFACE_A), "SET INT",
+	FTDI_CHECK(ftdi_set_interface(&fsc->fc, interface), "SET INT",
 		   fsc->fc);
 	FTDI_CHECK(ftdi_usb_reset(&fsc->fc), "RESET", fsc->fc);
 	FTDI_CHECK(ftdi_set_latency_timer(&fsc->fc, 2), "SET LAT 2ms", fsc->fc);
